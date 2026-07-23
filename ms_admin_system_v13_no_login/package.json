@@ -1,0 +1,22 @@
+{
+  "name": "ms-admin-system-v13-no-login",
+  "version": "12.0.0",
+  "description": "Ms admin panel v12 with exact player detail layout, exact home layout, persistent login, logo, and Node.js API.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node scripts/reset-db.js"
+  },
+  "keywords": [
+    "rtl",
+    "admin",
+    "fivem",
+    "panel",
+    "node",
+    "ms"
+  ],
+  "author": "",
+  "license": "MIT"
+}
