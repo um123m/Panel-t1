@@ -1,0 +1,756 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: Ms Admin System API for FiveM server management
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: state
+    description: Application state
+  - name: players
+    description: Player management
+  - name: bans
+    description: Ban management
+  - name: reports
+    description: Report management
+  - name: priorityList
+    description: Priority list management
+  - name: activations
+    description: Activation code management
+  - name: webhook
+    description: Game webhook
+
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+
+  /state:
+    get:
+      operationId: getState
+      tags: [state]
+      summary: Get full application state
+      responses:
+        "200":
+          description: Full application state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AppState"
+
+  /me:
+    get:
+      operationId: getMe
+      tags: [state]
+      summary: Get current user
+      responses:
+        "200":
+          description: Current user info
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserInfo"
+
+  /action:
+    post:
+      operationId: doPlayerAction
+      tags: [players]
+      summary: Perform a player action
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PlayerActionInput"
+      responses:
+        "200":
+          description: Action result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ActionResult"
+        "404":
+          description: Player not found
+
+  /priority:
+    post:
+      operationId: setPlayerPriority
+      tags: [players]
+      summary: Set player priority
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PlayerPriorityInput"
+      responses:
+        "200":
+          description: Updated state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StateResult"
+
+  /bans:
+    get:
+      operationId: getBans
+      tags: [bans]
+      summary: Get all bans
+      responses:
+        "200":
+          description: List of bans
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Ban"
+    post:
+      operationId: addBan
+      tags: [bans]
+      summary: Add a new ban
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/BanInput"
+      responses:
+        "200":
+          description: Added ban and updated state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StateResult"
+
+  /bans/{id}:
+    delete:
+      operationId: deleteBan
+      tags: [bans]
+      summary: Delete a ban
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Updated state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StateResult"
+
+  /reports/message:
+    post:
+      operationId: sendReportMessage
+      tags: [reports]
+      summary: Send a message to a report
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ReportMessageInput"
+      responses:
+        "200":
+          description: Updated report and state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StateResult"
+        "404":
+          description: Report not found
+
+  /priority-list:
+    get:
+      operationId: getPriorityList
+      tags: [priorityList]
+      summary: Get priority list
+      responses:
+        "200":
+          description: List of priority entries
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/PriorityEntry"
+    post:
+      operationId: addPriorityEntry
+      tags: [priorityList]
+      summary: Add priority entry
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PriorityEntryInput"
+      responses:
+        "200":
+          description: Updated state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StateResult"
+
+  /priority-list/{id}:
+    delete:
+      operationId: deletePriorityEntry
+      tags: [priorityList]
+      summary: Delete a priority entry
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Updated state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StateResult"
+
+  /activations:
+    get:
+      operationId: getActivations
+      tags: [activations]
+      summary: Get all activations
+      responses:
+        "200":
+          description: List of activations
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Activation"
+    post:
+      operationId: addActivation
+      tags: [activations]
+      summary: Add an activation code
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ActivationInput"
+      responses:
+        "200":
+          description: Updated state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StateResult"
+
+  /activations/{id}:
+    delete:
+      operationId: deleteActivation
+      tags: [activations]
+      summary: Delete an activation
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Updated state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StateResult"
+
+  /game-webhook:
+    post:
+      operationId: gameWebhook
+      tags: [webhook]
+      summary: Receive game events
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/WebhookInput"
+      responses:
+        "200":
+          description: OK
+
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+
+    UserInfo:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        user:
+          $ref: "#/components/schemas/User"
+      required: [ok, user]
+
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        email:
+          type: string
+        role:
+          type: string
+        avatar:
+          type: string
+      required: [id, name, email, role, avatar]
+
+    InventoryItem:
+      type: object
+      properties:
+        name:
+          type: string
+        qty:
+          type: integer
+        icon:
+          type: string
+      required: [name, qty, icon]
+
+    Vehicle:
+      type: object
+      properties:
+        plate:
+          type: string
+        model:
+          type: string
+        garage:
+          type: string
+        state:
+          type: string
+      required: [plate, model, garage, state]
+
+    PlayerNote:
+      type: object
+      properties:
+        at:
+          type: string
+        text:
+          type: string
+      required: [at, text]
+
+    Player:
+      type: object
+      properties:
+        id:
+          type: integer
+        order:
+          type: integer
+        nickname:
+          type: string
+        character:
+          type: string
+        steam:
+          type: string
+        license:
+          type: string
+        discord:
+          type: string
+        phone:
+          type: ["integer", "null"]
+        job:
+          type: string
+        cash:
+          type: number
+        bank:
+          type: number
+        birth:
+          type: string
+        country:
+          type: string
+        status:
+          type: string
+        priority:
+          type: integer
+        gang:
+          type: string
+        gangRank:
+          type: string
+        avatar:
+          type: string
+        warns:
+          type: integer
+        inventory:
+          type: array
+          items:
+            $ref: "#/components/schemas/InventoryItem"
+        vehicles:
+          type: array
+          items:
+            $ref: "#/components/schemas/Vehicle"
+        notes:
+          type: array
+          items:
+            $ref: "#/components/schemas/PlayerNote"
+      required: [id, nickname, job, cash, bank, status]
+
+    Weapon:
+      type: object
+      properties:
+        id:
+          type: integer
+        weapon:
+          type: string
+        serial:
+          type: string
+        editCount:
+          type: integer
+        date:
+          type: string
+        playerId:
+          type: integer
+        place:
+          type: string
+      required: [id, weapon, serial, editCount, date]
+
+    ReportMessage:
+      type: object
+      properties:
+        from:
+          type: string
+        text:
+          type: string
+        time:
+          type: string
+      required: [from, text, time]
+
+    Report:
+      type: object
+      properties:
+        id:
+          type: integer
+        status:
+          type: string
+        name:
+          type: string
+        messages:
+          type: array
+          items:
+            $ref: "#/components/schemas/ReportMessage"
+      required: [id, status, name, messages]
+
+    Ban:
+      type: object
+      properties:
+        id:
+          type: integer
+        banid:
+          type: string
+        name:
+          type: string
+        license:
+          type: string
+        steam:
+          type: string
+        discord:
+          type: string
+        reason:
+          type: string
+        bannedBy:
+          type: string
+        expire:
+          type: string
+        bannedOn:
+          type: string
+      required: [id, banid, name, reason, bannedBy]
+
+    Gang:
+      type: object
+      properties:
+        name:
+          type: string
+        members:
+          type: integer
+      required: [name, members]
+
+    QueueEntry:
+      type: object
+      properties:
+        name:
+          type: string
+        discord:
+          type: string
+        wait:
+          type: string
+        priority:
+          type: integer
+      required: [name]
+
+    PriorityEntry:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        discord:
+          type: string
+        license:
+          type: string
+        priority:
+          type: integer
+        note:
+          type: string
+        addedBy:
+          type: string
+        createdAt:
+          type: string
+      required: [id, name, priority]
+
+    Activation:
+      type: object
+      properties:
+        id:
+          type: integer
+        code:
+          type: string
+        name:
+          type: string
+        discord:
+          type: string
+        license:
+          type: string
+        note:
+          type: string
+        addedBy:
+          type: string
+        createdAt:
+          type: string
+      required: [id, code, name]
+
+    LogEntry:
+      type: object
+      properties:
+        id:
+          type: integer
+        at:
+          type: string
+        by:
+          type: string
+        action:
+          type: string
+        target:
+          type: string
+      required: [id, at, by, action, target]
+
+    Stats:
+      type: object
+      properties:
+        players:
+          type: integer
+        online:
+          type: integer
+        reports:
+          type: integer
+        bans:
+          type: integer
+        weapons:
+          type: integer
+        queue:
+          type: integer
+        priorities:
+          type: integer
+      required: [players, online, reports, bans, weapons, queue, priorities]
+
+    Settings:
+      type: object
+      properties:
+        siteName:
+          type: string
+        welcome:
+          type: string
+        theme:
+          type: string
+        accent:
+          type: string
+
+    AppState:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        settings:
+          $ref: "#/components/schemas/Settings"
+        stats:
+          $ref: "#/components/schemas/Stats"
+        players:
+          type: array
+          items:
+            $ref: "#/components/schemas/Player"
+        weapons:
+          type: array
+          items:
+            $ref: "#/components/schemas/Weapon"
+        reports:
+          type: array
+          items:
+            $ref: "#/components/schemas/Report"
+        bans:
+          type: array
+          items:
+            $ref: "#/components/schemas/Ban"
+        gangs:
+          type: array
+          items:
+            $ref: "#/components/schemas/Gang"
+        queue:
+          type: array
+          items:
+            $ref: "#/components/schemas/QueueEntry"
+        priorityList:
+          type: array
+          items:
+            $ref: "#/components/schemas/PriorityEntry"
+        activations:
+          type: array
+          items:
+            $ref: "#/components/schemas/Activation"
+        logs:
+          type: array
+          items:
+            $ref: "#/components/schemas/LogEntry"
+      required: [ok, stats, players, weapons, reports, bans, gangs, queue, priorityList, activations, logs]
+
+    ActionResult:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        player:
+          $ref: "#/components/schemas/Player"
+        state:
+          $ref: "#/components/schemas/AppState"
+      required: [ok]
+
+    StateResult:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        state:
+          $ref: "#/components/schemas/AppState"
+      required: [ok]
+
+    PlayerActionInput:
+      type: object
+      properties:
+        playerId:
+          type: integer
+        kind:
+          type: string
+        value:
+          type: string
+        qty:
+          type: integer
+        index:
+          type: integer
+        expire:
+          type: string
+      required: [playerId, kind]
+
+    PlayerPriorityInput:
+      type: object
+      properties:
+        playerId:
+          type: integer
+        priority:
+          type: integer
+      required: [playerId, priority]
+
+    BanInput:
+      type: object
+      properties:
+        banid:
+          type: string
+        name:
+          type: string
+        license:
+          type: string
+        steam:
+          type: string
+        discord:
+          type: string
+        reason:
+          type: string
+        expire:
+          type: string
+
+    ReportMessageInput:
+      type: object
+      properties:
+        reportId:
+          type: integer
+        text:
+          type: string
+      required: [reportId, text]
+
+    PriorityEntryInput:
+      type: object
+      properties:
+        name:
+          type: string
+        discord:
+          type: string
+        license:
+          type: string
+        priority:
+          type: integer
+        note:
+          type: string
+
+    ActivationInput:
+      type: object
+      properties:
+        code:
+          type: string
+        name:
+          type: string
+        discord:
+          type: string
+        license:
+          type: string
+        note:
+          type: string
+
+    WebhookInput:
+      type: object
+      properties:
+        type:
+          type: string
+        player:
+          $ref: "#/components/schemas/Player"
+        report:
+          $ref: "#/components/schemas/Report"
+      required: [type]
