@@ -1,0 +1,2233 @@
+{
+  "settings": {
+    "siteName": "Ms Manage",
+    "welcome": "🔥 لا يفوتك تحديثنا الجديد نزل ↗",
+    "theme": "dark",
+    "accent": "#7257ff"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "abadykhaled",
+      "email": "Ms",
+      "password": "Ms",
+      "role": "owner",
+      "avatar": "MS"
+    }
+  ],
+  "players": [
+    {
+      "id": 86,
+      "order": 1,
+      "nickname": "Fahad Zz",
+      "character": "فهد",
+      "steam": "steam:110000184749bfb",
+      "license": "license:5d94b91c5fb0c13a80d992c0428a63bbc409d3c",
+      "discord": "1096638118964248678",
+      "phone": 2055456574,
+      "job": "Civilian unemployed",
+      "cash": 6212,
+      "bank": 56439,
+      "birth": "Jul 2024",
+      "country": "Bahrain",
+      "status": "offline",
+      "priority": 1,
+      "gang": "bloodz",
+      "gangRank": "Recruit",
+      "avatar": "👨🏻‍🦲",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 24,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 2,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "A 1200",
+          "model": "Sultan RS",
+          "garage": "public",
+          "state": "داخل الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 11
+    },
+    {
+      "id": 2967,
+      "order": 2,
+      "nickname": "Saifo Man",
+      "character": "سيفو",
+      "steam": "steam:1100001c12b1946",
+      "license": "license:fe98b7927e2a784a3fc4d3f9acef4938",
+      "discord": "872717915073765355",
+      "phone": 188597543,
+      "job": "Law Enforcement - Officer One",
+      "cash": 11052,
+      "bank": 81840,
+      "birth": "Jan 1998",
+      "country": "Sudan",
+      "status": "online",
+      "priority": 5,
+      "gang": "-",
+      "gangRank": "Boss",
+      "avatar": "🕵️",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 27,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 1,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "WAS 124",
+          "model": "Crown Vic",
+          "garage": "police impound",
+          "state": "محجوزة"
+        }
+      ],
+      "notes": [],
+      "warns": 1
+    },
+    {
+      "id": 30,
+      "order": 3,
+      "nickname": "Ghostメ",
+      "character": "Tomas ALTashbo",
+      "steam": "steam:11000016c076438",
+      "license": "license:439d60e53bbc9acc2d9d7eb27fcc8372",
+      "discord": "829249090236037404",
+      "phone": 993965707,
+      "job": "police - جندي أول",
+      "cash": 10124,
+      "bank": 128718,
+      "birth": "Apr 2000",
+      "country": "UAE",
+      "status": "online",
+      "priority": 4,
+      "gang": "-",
+      "gangRank": "-",
+      "avatar": "👮",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 27,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 2,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "THE7A",
+          "model": "Crown Vic",
+          "garage": "police impound",
+          "state": "داخل الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 5
+    },
+    {
+      "id": 16,
+      "order": 4,
+      "nickname": "M 3 B",
+      "character": "Ali Ahmed",
+      "steam": "steam:11000016c569c58",
+      "license": "license:2d12a5b301e07372a4bb31bd80abb442",
+      "discord": "830139837697897685",
+      "phone": 278130319,
+      "job": "police - ملازم",
+      "cash": 10831,
+      "bank": 25890,
+      "birth": "Jan 1998",
+      "country": "UAE",
+      "status": "online",
+      "priority": 5,
+      "gang": "mafia",
+      "gangRank": "-",
+      "avatar": "😎",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 22,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 2,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "WAS 124",
+          "model": "Buffalo STX",
+          "garage": "airport",
+          "state": "محجوزة"
+        }
+      ],
+      "notes": [],
+      "warns": 14
+    },
+    {
+      "id": 32,
+      "order": 5,
+      "nickname": "abo 506",
+      "character": "Rakan Alanazi",
+      "steam": "steam:1100001abc585c6",
+      "license": "license:348e6fc70b4719e9d9321e5a36beab17",
+      "discord": "724848854055774495",
+      "phone": 724991130,
+      "job": "Garbage - Collector",
+      "cash": 6801,
+      "bank": 114945,
+      "birth": "Jul 2024",
+      "country": "UAE",
+      "status": "online",
+      "priority": 2,
+      "gang": "-",
+      "gangRank": "Recruit",
+      "avatar": "👨🏾",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 9,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 3,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "X-404",
+          "model": "Sultan RS",
+          "garage": "airport",
+          "state": "محجوزة"
+        }
+      ],
+      "notes": [],
+      "warns": 1
+    },
+    {
+      "id": 33,
+      "order": 6,
+      "nickname": "yves",
+      "character": "Travis Morthy",
+      "steam": "steam:11000017045a1cf",
+      "license": "license:133a7ed37ee7536920c5f62ed847e335",
+      "discord": "241993335611171735",
+      "phone": 976000607,
+      "job": "bank - موظف",
+      "cash": 13657,
+      "bank": 49324,
+      "birth": "Apr 2000",
+      "country": "Kuwait",
+      "status": "online",
+      "priority": 1,
+      "gang": "-",
+      "gangRank": "Shot Caller",
+      "avatar": "👨🏻",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 13,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 1,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "X-404",
+          "model": "Buffalo STX",
+          "garage": "police impound",
+          "state": "خارج الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 2
+    },
+    {
+      "id": 36,
+      "order": 7,
+      "nickname": "jb_k7",
+      "character": "Kahlil Ibrahim",
+      "steam": "steam:1100001f00368ef",
+      "license": "license:b4a80f10ee157b429d11717bb77fa262",
+      "discord": "730586083507938053",
+      "phone": 893392020,
+      "job": "mechanic - عامل",
+      "cash": 7479,
+      "bank": 45900,
+      "birth": "Apr 2000",
+      "country": "UAE",
+      "status": "online",
+      "priority": 1,
+      "gang": "-",
+      "gangRank": "Recruit",
+      "avatar": "🥷",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 14,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 2,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "WAS 124",
+          "model": "Sultan RS",
+          "garage": "police impound",
+          "state": "داخل الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 3
+    },
+    {
+      "id": 35,
+      "order": 8,
+      "nickname": "P0WR Rick",
+      "character": "Shaman Frank",
+      "steam": "steam:1100001a313250d",
+      "license": "license:a37bb664bf16ba3ba1cae789287a9c29",
+      "discord": "925247926238870041",
+      "phone": 808245969,
+      "job": "Civilian - Freelancer",
+      "cash": 8060,
+      "bank": 129673,
+      "birth": "Apr 2000",
+      "country": "Saudi Arabia",
+      "status": "online",
+      "priority": 3,
+      "gang": "mafia",
+      "gangRank": "Boss",
+      "avatar": "🧔",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 25,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 1,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "X-404",
+          "model": "G63",
+          "garage": "police impound",
+          "state": "خارج الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 2
+    },
+    {
+      "id": 24,
+      "order": 9,
+      "nickname": "QAF / SLO",
+      "character": "SULAIMAN Ahmad",
+      "steam": "steam:1100001d5a78388",
+      "license": "license:e076a9155bef2da4353253b175d8b65f",
+      "discord": "660388811764519289",
+      "phone": 335600897,
+      "job": "Civilian unemployed",
+      "cash": 8244,
+      "bank": 19347,
+      "birth": "Oct 2002",
+      "country": "Saudi Arabia",
+      "status": "online",
+      "priority": 3,
+      "gang": "-",
+      "gangRank": "-",
+      "avatar": "👤",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 17,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 1,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "THE7A",
+          "model": "Sultan RS",
+          "garage": "police impound",
+          "state": "محجوزة"
+        }
+      ],
+      "notes": [],
+      "warns": 0
+    },
+    {
+      "id": 29,
+      "order": 10,
+      "nickname": "zlzxli",
+      "character": "Frank ALTashbo",
+      "steam": "steam:1100001c412dce6",
+      "license": "license:3cf9bcdb59c7e2b78df1ac8498611ca8",
+      "discord": "244793983830966172",
+      "phone": 278659912,
+      "job": "Law Enforcement - Officer One",
+      "cash": 8077,
+      "bank": 114468,
+      "birth": "Jan 1998",
+      "country": "Sudan",
+      "status": "online",
+      "priority": 4,
+      "gang": "-",
+      "gangRank": "Recruit",
+      "avatar": "🧑🏽‍🦱",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 30,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 1,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "X-404",
+          "model": "Buffalo STX",
+          "garage": "banner_515859",
+          "state": "محجوزة"
+        }
+      ],
+      "notes": [],
+      "warns": 0
+    },
+    {
+      "id": 77,
+      "order": 11,
+      "nickname": "Ahmed Sigma",
+      "character": "احمد",
+      "steam": "steam:1100001160b52bc",
+      "license": "license:788b57582797e54f481e5d89c89f0850",
+      "discord": "723806877265774887",
+      "phone": 727607582,
+      "job": "police - جندي أول",
+      "cash": 1660,
+      "bank": 30264,
+      "birth": "Jul 2024",
+      "country": "Saudi Arabia",
+      "status": "offline",
+      "priority": 3,
+      "gang": "-",
+      "gangRank": "-",
+      "avatar": "👨🏻‍🦲",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 23,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 2,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "WAS 124",
+          "model": "Buffalo STX",
+          "garage": "banner_515859",
+          "state": "خارج الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 0
+    },
+    {
+      "id": 657568,
+      "order": 12,
+      "nickname": "Khalil Saferly",
+      "character": "خليل",
+      "steam": "steam:11000019d28b5e2",
+      "license": "license:9a46bc0f9fb1fc6723bad115e203cb91",
+      "discord": "502799787558182056",
+      "phone": 810127816,
+      "job": "police - ملازم",
+      "cash": 3023,
+      "bank": 105199,
+      "birth": "Oct 2002",
+      "country": "Saudi Arabia",
+      "status": "offline",
+      "priority": 4,
+      "gang": "-",
+      "gangRank": "Boss",
+      "avatar": "🕵️",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 29,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 1,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "QAF123",
+          "model": "Sultan RS",
+          "garage": "airport",
+          "state": "داخل الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 2
+    },
+    {
+      "id": 3094,
+      "order": 13,
+      "nickname": "Farhana Abas",
+      "character": "فرحانة",
+      "steam": "steam:1100001129b553f",
+      "license": "license:10aef8e1362788a56acd9c43138f06de",
+      "discord": "518052708201678064",
+      "phone": 749206668,
+      "job": "Garbage - Collector",
+      "cash": 3381,
+      "bank": 71575,
+      "birth": "Jul 2024",
+      "country": "Saudi Arabia",
+      "status": "offline",
+      "priority": 4,
+      "gang": "-",
+      "gangRank": "Shot Caller",
+      "avatar": "👮",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 19,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 3,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "BLOODZ",
+          "model": "Sultan RS",
+          "garage": "police impound",
+          "state": "خارج الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 3
+    },
+    {
+      "id": 353,
+      "order": 14,
+      "nickname": "Rashed Salem",
+      "character": "راشد",
+      "steam": "steam:110000141af79be",
+      "license": "license:cacaf246166d36f68f812913a3feea29",
+      "discord": "784127844186363150",
+      "phone": 545608067,
+      "job": "bank - موظف",
+      "cash": 5013,
+      "bank": 59326,
+      "birth": "Apr 2000",
+      "country": "UAE",
+      "status": "offline",
+      "priority": 4,
+      "gang": "-",
+      "gangRank": "Shot Caller",
+      "avatar": "😎",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 10,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 2,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "WAS 124",
+          "model": "Buffalo STX",
+          "garage": "police impound",
+          "state": "خارج الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 1
+    },
+    {
+      "id": 406208,
+      "order": 15,
+      "nickname": "John Arthur",
+      "character": "جون",
+      "steam": "steam:11000015c4c2988",
+      "license": "license:aeae8f44b47d64cd8d56147fa721dc5e",
+      "discord": "472290567120649978",
+      "phone": 545796940,
+      "job": "mechanic - عامل",
+      "cash": 3901,
+      "bank": 33871,
+      "birth": "Oct 2002",
+      "country": "Bahrain",
+      "status": "offline",
+      "priority": 2,
+      "gang": "-",
+      "gangRank": "Boss",
+      "avatar": "👨🏾",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 22,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 1,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "BLOODZ",
+          "model": "G63",
+          "garage": "police impound",
+          "state": "خارج الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 3
+    },
+    {
+      "id": 182751,
+      "order": 16,
+      "nickname": "Turki alqhtani",
+      "character": "تركي",
+      "steam": "steam:1100001fd1b7571",
+      "license": "license:ea846bd2b194341f4201577181ae9bda",
+      "discord": "327418848559786550",
+      "phone": 150109946,
+      "job": "Civilian - Freelancer",
+      "cash": 8559,
+      "bank": 129988,
+      "birth": "Apr 2000",
+      "country": "Saudi Arabia",
+      "status": "offline",
+      "priority": 3,
+      "gang": "-",
+      "gangRank": "Shot Caller",
+      "avatar": "👨🏻",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 16,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 3,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "QAF123",
+          "model": "Buffalo STX",
+          "garage": "police impound",
+          "state": "داخل الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 0
+    },
+    {
+      "id": 5515,
+      "order": 17,
+      "nickname": "Mohamed Alrussi",
+      "character": "محمد",
+      "steam": "steam:1100001144737b1",
+      "license": "license:ab91ede27f41c412b3c6744321502319",
+      "discord": "451517939801986027",
+      "phone": 946560994,
+      "job": "Civilian unemployed",
+      "cash": 6608,
+      "bank": 90749,
+      "birth": "Jan 1998",
+      "country": "UAE",
+      "status": "offline",
+      "priority": 5,
+      "gang": "bloodz",
+      "gangRank": "Boss",
+      "avatar": "🥷",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 11,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 1,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "BLOODZ",
+          "model": "G63",
+          "garage": "banner_515859",
+          "state": "محجوزة"
+        }
+      ],
+      "notes": [],
+      "warns": 2
+    },
+    {
+      "id": 34699,
+      "order": 18,
+      "nickname": "Walid Nga",
+      "character": "وليد",
+      "steam": "steam:1100001b0f07ad0",
+      "license": "license:a8dfaed8d91599bd0122de74b05ead8a",
+      "discord": "227974065804349767",
+      "phone": 425842252,
+      "job": "Law Enforcement - Officer One",
+      "cash": 9659,
+      "bank": 98031,
+      "birth": "Jul 2024",
+      "country": "Kuwait",
+      "status": "offline",
+      "priority": 0,
+      "gang": "-",
+      "gangRank": "Boss",
+      "avatar": "🧔",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 27,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 2,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "THE7A",
+          "model": "Crown Vic",
+          "garage": "airport",
+          "state": "خارج الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 0
+    },
+    {
+      "id": 411007,
+      "order": 19,
+      "nickname": "A A",
+      "character": "A A",
+      "steam": "steam:110000134171d29",
+      "license": "license:795b6ba08cc2ffb02d0346cb2db4421d",
+      "discord": "411677381331513262",
+      "phone": 307722412,
+      "job": "police - جندي أول",
+      "cash": 11809,
+      "bank": 100322,
+      "birth": "Apr 2000",
+      "country": "Kuwait",
+      "status": "offline",
+      "priority": 2,
+      "gang": "-",
+      "gangRank": "Recruit",
+      "avatar": "👤",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 10,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 3,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "QAF123",
+          "model": "Sultan RS",
+          "garage": "airport",
+          "state": "خارج الكراج"
+        }
+      ],
+      "notes": [],
+      "warns": 2
+    },
+    {
+      "id": 19309,
+      "order": 20,
+      "nickname": "ABO HAMED",
+      "character": "ابو حامد",
+      "steam": "steam:1100001648a73d3",
+      "license": "license:c65e9a8f79bf51153dec06078269bff3",
+      "discord": "614851363252608102",
+      "phone": 278534675,
+      "job": "police - ملازم",
+      "cash": 6492,
+      "bank": 35749,
+      "birth": "Oct 2002",
+      "country": "Sudan",
+      "status": "offline",
+      "priority": 1,
+      "gang": "-",
+      "gangRank": "Boss",
+      "avatar": "🧑🏽‍🦱",
+      "inventory": [
+        {
+          "name": "Heavy Pistol",
+          "qty": 1,
+          "icon": "🔫"
+        },
+        {
+          "name": "pistol ذخيرة",
+          "qty": 8,
+          "icon": "📦"
+        },
+        {
+          "name": "درع حماية",
+          "qty": 1,
+          "icon": "🛡️"
+        },
+        {
+          "name": "جوال",
+          "qty": 1,
+          "icon": "📱"
+        },
+        {
+          "name": "رخصة القيادة",
+          "qty": 1,
+          "icon": "💳"
+        }
+      ],
+      "vehicles": [
+        {
+          "plate": "QAF123",
+          "model": "Sultan RS",
+          "garage": "airport",
+          "state": "محجوزة"
+        }
+      ],
+      "notes": [],
+      "warns": 2
+    }
+  ],
+  "weapons": [
+    {
+      "id": 1,
+      "weapon": "weapon_heavypistol",
+      "serial": "41i1L4Ln489SyMT",
+      "editCount": 21,
+      "date": "2024/07/27",
+      "note": "🟡",
+      "place": "-",
+      "type": "صندوق مركبة",
+      "playerId": 86,
+      "player": "yves",
+      "job": "bank - موظف",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 2,
+      "weapon": "Pistol Mk II",
+      "serial": "T3vFlf8Cf10afQ83",
+      "editCount": 5,
+      "date": "2024/07/26",
+      "note": "",
+      "place": "-",
+      "type": "صندوق مركبة",
+      "playerId": 2967,
+      "player": "Saifo Man",
+      "job": "Law Enforcement - Officer One",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 3,
+      "weapon": "weapon_carbinerifle",
+      "serial": "5tkcewKQ6NWOhbfj",
+      "editCount": 3,
+      "date": "2024/07/27",
+      "note": "",
+      "place": "unknown",
+      "type": "حقيبة لاعب",
+      "playerId": 411007,
+      "player": "A A",
+      "job": "police - جندي أول",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 4,
+      "weapon": "weapon_pistol50",
+      "serial": "IpZO9UVYHai6lLxU",
+      "editCount": 3,
+      "date": "2024/07/26",
+      "note": "✏️",
+      "place": "banner_515859",
+      "type": "ستاش",
+      "playerId": 3094,
+      "player": "Farhana Abas",
+      "job": "Garbage - Collector",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 5,
+      "weapon": "weapon_heavypistol",
+      "serial": "G4MKGDwI9DmItVO",
+      "editCount": 3,
+      "date": "2024/07/27",
+      "note": "🟡",
+      "place": "banner_515859",
+      "type": "صندوق مركبة",
+      "playerId": 32,
+      "player": "abo 506",
+      "job": "Garbage - Collector",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 6,
+      "weapon": "Pistol Mk II",
+      "serial": "Agh1IpGWcDO9Uy",
+      "editCount": 2,
+      "date": "2024/07/27",
+      "note": "",
+      "place": "banner_515859",
+      "type": "حقيبة لاعب",
+      "playerId": 16,
+      "player": "M 3 B",
+      "job": "police - ملازم",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 7,
+      "weapon": "weapon_smg",
+      "serial": "3LTH4qEkoaX3",
+      "editCount": 5,
+      "date": "2024/07/26",
+      "note": "",
+      "place": "police locker",
+      "type": "صندوق مركبة",
+      "playerId": 34699,
+      "player": "Walid Nga",
+      "job": "Law Enforcement - Officer One",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 8,
+      "weapon": "weapon_pistol50",
+      "serial": "29yb9bEDxWTn0",
+      "editCount": 21,
+      "date": "2024/07/28",
+      "note": "",
+      "place": "unknown",
+      "type": "ستاش",
+      "playerId": 3094,
+      "player": "Farhana Abas",
+      "job": "Garbage - Collector",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 9,
+      "weapon": "weapon_smg",
+      "serial": "ybzLNDuEDia8Xw3J",
+      "editCount": 21,
+      "date": "2024/07/26",
+      "note": "✏️",
+      "place": "banner_515859",
+      "type": "حقيبة لاعب",
+      "playerId": 3094,
+      "player": "Farhana Abas",
+      "job": "Garbage - Collector",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 10,
+      "weapon": "weapon_carbinerifle",
+      "serial": "FxKPDgLxeRp6j8q",
+      "editCount": 3,
+      "date": "2024/07/27",
+      "note": "🟡",
+      "place": "banner_515859",
+      "type": "حقيبة لاعب",
+      "playerId": 353,
+      "player": "Rashed Salem",
+      "job": "bank - موظف",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 11,
+      "weapon": "Pistol Mk II",
+      "serial": "yCLLqKQSco2aC",
+      "editCount": 21,
+      "date": "2024/07/26",
+      "note": "🟡",
+      "place": "unknown",
+      "type": "ستاش",
+      "playerId": 406208,
+      "player": "John Arthur",
+      "job": "mechanic - عامل",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 12,
+      "weapon": "Pistol Mk II",
+      "serial": "i0xBL8xFuRAQkArjlx",
+      "editCount": 5,
+      "date": "2024/07/28",
+      "note": "",
+      "place": "police locker",
+      "type": "صندوق مركبة",
+      "playerId": 86,
+      "player": "Fahad Zz",
+      "job": "Civilian unemployed",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 13,
+      "weapon": "weapon_pistol50",
+      "serial": "4mFuDlpCynQl1lLpWG",
+      "editCount": 7,
+      "date": "2024/07/27",
+      "note": "✏️",
+      "place": "-",
+      "type": "ستاش",
+      "playerId": 182751,
+      "player": "Turki alqhtani",
+      "job": "Civilian - Freelancer",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 14,
+      "weapon": "weapon_smg",
+      "serial": "8a1BRALlpao8q8n",
+      "editCount": 21,
+      "date": "2024/07/27",
+      "note": "🟡",
+      "place": "banner_515859",
+      "type": "ستاش",
+      "playerId": 353,
+      "player": "Rashed Salem",
+      "job": "bank - موظف",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 15,
+      "weapon": "weapon_pistol50",
+      "serial": "a2GOYq5iCNBHS4X",
+      "editCount": 3,
+      "date": "2024/07/28",
+      "note": "",
+      "place": "unknown",
+      "type": "حقيبة لاعب",
+      "playerId": 32,
+      "player": "abo 506",
+      "job": "Garbage - Collector",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 16,
+      "weapon": "weapon_carbinerifle",
+      "serial": "7TNFGyBbwKssZE2",
+      "editCount": 5,
+      "date": "2024/07/27",
+      "note": "✏️",
+      "place": "banner_515859",
+      "type": "ستاش",
+      "playerId": 406208,
+      "player": "John Arthur",
+      "job": "mechanic - عامل",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 17,
+      "weapon": "weapon_smg",
+      "serial": "t8eprAwn4WILwdag3",
+      "editCount": 21,
+      "date": "2024/07/27",
+      "note": "✏️",
+      "place": "police locker",
+      "type": "صندوق مركبة",
+      "playerId": 406208,
+      "player": "John Arthur",
+      "job": "mechanic - عامل",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 18,
+      "weapon": "weapon_pistol50",
+      "serial": "xyCY9v88c0ucS",
+      "editCount": 2,
+      "date": "2024/07/26",
+      "note": "🟡",
+      "place": "police locker",
+      "type": "حقيبة لاعب",
+      "playerId": 30,
+      "player": "Ghostメ",
+      "job": "police - جندي أول",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 19,
+      "weapon": "weapon_smg",
+      "serial": "Kwnr67pgpjl1qro",
+      "editCount": 3,
+      "date": "2024/07/27",
+      "note": "🟡",
+      "place": "banner_515859",
+      "type": "صندوق مركبة",
+      "playerId": 77,
+      "player": "Ahmed Sigma",
+      "job": "police - جندي أول",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 20,
+      "weapon": "weapon_smg",
+      "serial": "7DOMOLA9kkeiiCqpG",
+      "editCount": 7,
+      "date": "2024/07/26",
+      "note": "",
+      "place": "-",
+      "type": "ستاش",
+      "playerId": 182751,
+      "player": "Turki alqhtani",
+      "job": "Civilian - Freelancer",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 21,
+      "weapon": "Pistol Mk II",
+      "serial": "cLRPrabZFsjf6Yq2kO",
+      "editCount": 21,
+      "date": "2024/07/28",
+      "note": "🟡",
+      "place": "banner_515859",
+      "type": "صندوق مركبة",
+      "playerId": 30,
+      "player": "Ghostメ",
+      "job": "police - جندي أول",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 22,
+      "weapon": "weapon_combatpistol",
+      "serial": "kHuVHRO3iUMMAMmv",
+      "editCount": 21,
+      "date": "2024/07/26",
+      "note": "",
+      "place": "banner_515859",
+      "type": "ستاش",
+      "playerId": 36,
+      "player": "jb_k7",
+      "job": "mechanic - عامل",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 23,
+      "weapon": "Pistol Mk II",
+      "serial": "Lt4UZLVdtwZnzGUd",
+      "editCount": 5,
+      "date": "2024/07/28",
+      "note": "✏️",
+      "place": "unknown",
+      "type": "صندوق مركبة",
+      "playerId": 19309,
+      "player": "ABO HAMED",
+      "job": "police - ملازم",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 24,
+      "weapon": "weapon_pistol50",
+      "serial": "InioUycxc2TSkSg9",
+      "editCount": 5,
+      "date": "2024/07/28",
+      "note": "🟡",
+      "place": "police locker",
+      "type": "صندوق مركبة",
+      "playerId": 29,
+      "player": "zlzxli",
+      "job": "Law Enforcement - Officer One",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 25,
+      "weapon": "Pistol Mk II",
+      "serial": "ClsBXy7VBGAnTf",
+      "editCount": 21,
+      "date": "2024/07/27",
+      "note": "",
+      "place": "unknown",
+      "type": "صندوق مركبة",
+      "playerId": 30,
+      "player": "Ghostメ",
+      "job": "police - جندي أول",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 26,
+      "weapon": "weapon_combatpistol",
+      "serial": "vFaE0xM8Ta59nZH",
+      "editCount": 5,
+      "date": "2024/07/27",
+      "note": "",
+      "place": "police locker",
+      "type": "صندوق مركبة",
+      "playerId": 2967,
+      "player": "Saifo Man",
+      "job": "Law Enforcement - Officer One",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 27,
+      "weapon": "Pistol Mk II",
+      "serial": "q2h7Si0T75YJla",
+      "editCount": 3,
+      "date": "2024/07/26",
+      "note": "",
+      "place": "banner_515859",
+      "type": "ستاش",
+      "playerId": 24,
+      "player": "QAF / SLO",
+      "job": "Civilian unemployed",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 28,
+      "weapon": "weapon_heavypistol",
+      "serial": "IDmBths24t4yn1BQ4",
+      "editCount": 5,
+      "date": "2024/07/26",
+      "note": "",
+      "place": "banner_515859",
+      "type": "حقيبة لاعب",
+      "playerId": 3094,
+      "player": "Farhana Abas",
+      "job": "Garbage - Collector",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 29,
+      "weapon": "weapon_smg",
+      "serial": "j6Zbrdf8AkmB4bc",
+      "editCount": 2,
+      "date": "2024/07/27",
+      "note": "",
+      "place": "unknown",
+      "type": "صندوق مركبة",
+      "playerId": 29,
+      "player": "zlzxli",
+      "job": "Law Enforcement - Officer One",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 30,
+      "weapon": "weapon_pistol50",
+      "serial": "xzBHCqIWATNd2UBjwf",
+      "editCount": 21,
+      "date": "2024/07/26",
+      "note": "✏️",
+      "place": "police locker",
+      "type": "حقيبة لاعب",
+      "playerId": 411007,
+      "player": "A A",
+      "job": "police - جندي أول",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 31,
+      "weapon": "weapon_heavypistol",
+      "serial": "py68DsW37RPVdOkQzy",
+      "editCount": 2,
+      "date": "2024/07/28",
+      "note": "",
+      "place": "police locker",
+      "type": "حقيبة لاعب",
+      "playerId": 353,
+      "player": "Rashed Salem",
+      "job": "bank - موظف",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 32,
+      "weapon": "weapon_heavypistol",
+      "serial": "0d0ru4xrxKKd",
+      "editCount": 5,
+      "date": "2024/07/27",
+      "note": "🟡",
+      "place": "unknown",
+      "type": "ستاش",
+      "playerId": 657568,
+      "player": "Khalil Saferly",
+      "job": "police - ملازم",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 33,
+      "weapon": "weapon_carbinerifle",
+      "serial": "4nGXRTMI9oHSVhHj",
+      "editCount": 2,
+      "date": "2024/07/28",
+      "note": "✏️",
+      "place": "unknown",
+      "type": "صندوق مركبة",
+      "playerId": 16,
+      "player": "M 3 B",
+      "job": "police - ملازم",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 34,
+      "weapon": "Pistol Mk II",
+      "serial": "zULT80an5cRWDSsn6",
+      "editCount": 7,
+      "date": "2024/07/28",
+      "note": "✏️",
+      "place": "-",
+      "type": "صندوق مركبة",
+      "playerId": 353,
+      "player": "Rashed Salem",
+      "job": "bank - موظف",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 35,
+      "weapon": "weapon_pistol50",
+      "serial": "Q3ddq5MVs6YsbHiw6V",
+      "editCount": 21,
+      "date": "2024/07/27",
+      "note": "✏️",
+      "place": "-",
+      "type": "ستاش",
+      "playerId": 33,
+      "player": "yves",
+      "job": "bank - موظف",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 36,
+      "weapon": "weapon_heavypistol",
+      "serial": "qBdK0ZkZhSeiYL1cI",
+      "editCount": 5,
+      "date": "2024/07/26",
+      "note": "✏️",
+      "place": "unknown",
+      "type": "ستاش",
+      "playerId": 406208,
+      "player": "John Arthur",
+      "job": "mechanic - عامل",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 37,
+      "weapon": "Pistol Mk II",
+      "serial": "cb9IqTHtlev7cOx",
+      "editCount": 7,
+      "date": "2024/07/27",
+      "note": "🟡",
+      "place": "unknown",
+      "type": "حقيبة لاعب",
+      "playerId": 35,
+      "player": "P0WR Rick",
+      "job": "Civilian - Freelancer",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    },
+    {
+      "id": 38,
+      "weapon": "weapon_heavypistol",
+      "serial": "sSCQlqyJZlc5enq",
+      "editCount": 2,
+      "date": "2024/07/27",
+      "note": "",
+      "place": "-",
+      "type": "ستاش",
+      "playerId": 2967,
+      "player": "Saifo Man",
+      "job": "Law Enforcement - Officer One",
+      "controls": [
+        "⚙️",
+        "📦",
+        "🔶",
+        "💬"
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "playerId": 86,
+      "name": "Fahad Zz",
+      "title": "استفسار عام",
+      "status": "pending",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:18 م"
+        },
+        {
+          "from": "Fahad Zz",
+          "text": "السيارة اختفت",
+          "time": "02:20 م"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "playerId": 2967,
+      "name": "Saifo Man",
+      "title": "مشكلة مركبة",
+      "status": "pending",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:19 م"
+        },
+        {
+          "from": "Saifo Man",
+          "text": "السيارة اختفت",
+          "time": "02:21 م"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "playerId": 30,
+      "name": "Ghostメ",
+      "title": "بلاغ تخريب",
+      "status": "open",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:20 م"
+        },
+        {
+          "from": "Ghostメ",
+          "text": "فيه لاعب خرب علي",
+          "time": "02:22 م"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "playerId": 16,
+      "name": "M 3 B",
+      "title": "مساعدة داخل السيرفر",
+      "status": "pending",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:21 م"
+        },
+        {
+          "from": "M 3 B",
+          "text": "عندي مشكلة في الحقيبة",
+          "time": "02:23 م"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "playerId": 32,
+      "name": "abo 506",
+      "title": "مشكلة مركبة",
+      "status": "closed",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:22 م"
+        },
+        {
+          "from": "abo 506",
+          "text": "فيه لاعب خرب علي",
+          "time": "02:24 م"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "playerId": 33,
+      "name": "yves",
+      "title": "بلاغ تخريب",
+      "status": "closed",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:23 م"
+        },
+        {
+          "from": "yves",
+          "text": "عندي مشكلة في الحقيبة",
+          "time": "02:25 م"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "playerId": 36,
+      "name": "jb_k7",
+      "title": "مساعدة داخل السيرفر",
+      "status": "pending",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:24 م"
+        },
+        {
+          "from": "jb_k7",
+          "text": "فيه لاعب خرب علي",
+          "time": "02:26 م"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "playerId": 35,
+      "name": "P0WR Rick",
+      "title": "مساعدة داخل السيرفر",
+      "status": "pending",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:25 م"
+        },
+        {
+          "from": "P0WR Rick",
+          "text": "السيارة اختفت",
+          "time": "02:27 م"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "playerId": 24,
+      "name": "QAF / SLO",
+      "title": "مشكلة مركبة",
+      "status": "closed",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:26 م"
+        },
+        {
+          "from": "QAF / SLO",
+          "text": "فيه لاعب خرب علي",
+          "time": "02:28 م"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "playerId": 29,
+      "name": "zlzxli",
+      "title": "استفسار عام",
+      "status": "pending",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:27 م"
+        },
+        {
+          "from": "zlzxli",
+          "text": "احتاج ادمن",
+          "time": "02:29 م"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "playerId": 77,
+      "name": "Ahmed Sigma",
+      "title": "مساعدة داخل السيرفر",
+      "status": "open",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:28 م"
+        },
+        {
+          "from": "Ahmed Sigma",
+          "text": "السيارة اختفت",
+          "time": "02:30 م"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "playerId": 657568,
+      "name": "Khalil Saferly",
+      "title": "مشكلة مركبة",
+      "status": "pending",
+      "messages": [
+        {
+          "from": "system",
+          "text": "انضم للسيرفر",
+          "time": "02:29 م"
+        },
+        {
+          "from": "Khalil Saferly",
+          "text": "فيه لاعب خرب علي",
+          "time": "02:31 م"
+        }
+      ]
+    }
+  ],
+  "bans": [
+    {
+      "id": 1,
+      "banid": "نهاي",
+      "name": "غير معلوم",
+      "license": "baf4f35de0e004e3f6be3021d26940b889a7ddc7",
+      "steam": "110000107c7d8eb",
+      "discord": "1263802303824134238",
+      "reason": "...",
+      "bannedBy": "Ms | aboqaht",
+      "expire": "1722162840",
+      "bannedOn": "1722162840"
+    },
+    {
+      "id": 2,
+      "banid": "ssss",
+      "name": "ssss",
+      "license": "5d94b9c5fb0c13a80d992c0428a63bbc4409d3c",
+      "steam": "11000014b715c0b",
+      "discord": "1096638118964248678",
+      "reason": "...",
+      "bannedBy": "Ms | abadykhaled",
+      "expire": "0",
+      "bannedOn": "0"
+    },
+    {
+      "id": 3,
+      "banid": "HACK",
+      "name": "HACK",
+      "license": "f8a2b6bacbe0f36f726237aab43db509daf7a2a1",
+      "steam": "11000014e61c16f",
+      "discord": "973997792332759050",
+      "reason": "Enjoy your stay in ...waqwaq isla",
+      "bannedBy": "Auto Ban",
+      "expire": "2147483647",
+      "bannedOn": "2147483647"
+    }
+  ],
+  "gangs": [
+    {
+      "name": "Mafia",
+      "members": 8
+    },
+    {
+      "name": "Bloodz",
+      "members": 1
+    }
+  ],
+  "queue": [],
+  "pending": [
+    {
+      "id": 1,
+      "name": "مواطن",
+      "type": "إشعار جديد",
+      "text": "شاهد"
+    }
+  ],
+  "logs": [],
+  "sessions": [
+    {
+      "token": "d043b32de72cdc09c1b96edfa0ad263bd30e693f6e2c874021f60ff717f67506",
+      "userId": 1,
+      "createdAt": 1777753073896,
+      "expiresAt": 1809289073
+    }
+  ],
+  "activations": [],
+  "priorityList": [
+    {
+      "id": 5000,
+      "name": "Fahad Zz",
+      "discord": "952881183253349646",
+      "license": "license:a86d196eec8680e85d039f2ba63a2058",
+      "priority": 1,
+      "note": "إضافة أولوية من الإدارة",
+      "addedBy": "abadykhaled",
+      "createdAt": "2024-07-27T18:30:00.000Z"
+    },
+    {
+      "id": 5001,
+      "name": "Saifo Man",
+      "discord": "872717915073765355",
+      "license": "license:fe98b7927e2a784a3fc4d3f9acef4938",
+      "priority": 5,
+      "note": "إضافة أولوية من الإدارة",
+      "addedBy": "abadykhaled",
+      "createdAt": "2024-07-28T18:30:00.000Z"
+    },
+    {
+      "id": 5002,
+      "name": "Ghostメ",
+      "discord": "829249090236037404",
+      "license": "license:439d60e53bbc9acc2d9d7eb27fcc8372",
+      "priority": 4,
+      "note": "إضافة أولوية من الإدارة",
+      "addedBy": "abadykhaled",
+      "createdAt": "2024-07-29T18:30:00.000Z"
+    },
+    {
+      "id": 5003,
+      "name": "M 3 B",
+      "discord": "830139837697897685",
+      "license": "license:2d12a5b301e07372a4bb31bd80abb442",
+      "priority": 5,
+      "note": "إضافة أولوية من الإدارة",
+      "addedBy": "abadykhaled",
+      "createdAt": "2024-07-210T18:30:00.000Z"
+    },
+    {
+      "id": 5004,
+      "name": "abo 506",
+      "discord": "724848854055774495",
+      "license": "license:348e6fc70b4719e9d9321e5a36beab17",
+      "priority": 2,
+      "note": "إضافة أولوية من الإدارة",
+      "addedBy": "abadykhaled",
+      "createdAt": "2024-07-211T18:30:00.000Z"
+    }
+  ]
+}
